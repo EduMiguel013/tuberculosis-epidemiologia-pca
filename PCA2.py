@@ -59,10 +59,6 @@ transformed_data = np.dot(scaled_data, selected_vectors)
 print("\nDados transformados (primeiras 5 amostras):")
 print(transformed_data[:5])
 
-#Apresentar novo dataset
-pca = PCA(n_components=2)
-resultado_pca = pca.fit_transform(dados_padronizados)
-
 # Visualizar os dois primeiros componentes principais em um gráfico
 plt.figure(figsize=(10, 7))
 plt.scatter(transformed_data[:, 0], transformed_data[:, 1], c='blue', edgecolor='k', alpha=0.7)
