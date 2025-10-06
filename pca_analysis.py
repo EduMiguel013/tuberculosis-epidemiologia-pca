@@ -6,7 +6,7 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 
 # Carregar o dataset
-data = pd.read_csv("PCA.csv", delimiter=";", encoding="latin1")
+data = pd.read_csv("tuberculosis_2020-2023.csv", delimiter=";", encoding="latin1")
 
 # Exibir informações iniciais do dataset
 print("Informações do dataset antes do tratamento:")
@@ -67,3 +67,4 @@ plt.xlabel("Componente Principal 1")
 plt.ylabel("Componente Principal 2")
 plt.grid(True)
 plt.show()
+
