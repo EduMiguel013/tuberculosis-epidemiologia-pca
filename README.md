@@ -1,6 +1,6 @@
-# 🧭 tuberculosis-epidemiologia-pca
+# 🔬 tuberculosis-epidemiologia-pca
 
-**🔬 Análise de Componentes Principais (PCA)** aplicada a dados de tuberculose — projeto pensado para portfólio de Cientista de Dados.  
+**Análise de Componentes Principais (PCA)** aplicada a dados de tuberculose — projeto pensado para portfólio de Cientista de Dados.  
 Este repositório contém a base de dados, relatório e código reprodutível para executar PCA, visualizar componentes principais e interpretar loadings em um contexto epidemiológico.
 
 ---
